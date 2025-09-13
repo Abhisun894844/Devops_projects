@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Sample Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Build Something Amazing</h1>
+            <p>Your journey starts here.</p>
+            <a href="#contact" class="btn">Get Started</a>
+        </section>
+        
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is a simple sample website built with HTML, CSS, and JavaScript.</p>
+            <button onclick="showMessage()">Click Me!</button>
+            <p id="message"></p>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+            <p>This page was created as an example of a basic web page layout.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach us at: <a href="mailto:sample@example.com">sample@example.com</a></p>
+        </section>
+        <section id="features">
+            <h2>Our Features</h2>
+            <div class="features-container">
+                <div class="feature-box">
+                    <h3>Fast</h3>
+                    <p>Lightning-fast loading times and great performance.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Responsive</h3>
+                    <p>Looks good on every screen size — mobile, tablet, and desktop.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Modern</h3>
+                    <p>Built with the latest design trends and technology.</p>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <h2>What Our Users Say</h2>
+            <blockquote>
+                "This website helped me launch my online presence in minutes. Highly recommend!"
+                <cite>– Happy Customer</cite>
+            </blockquote>
+        </section>
+        
+        
+    </main>
+    <button id="backToTop" title="Go to top">↑</button>
+
+
+    <footer>
+        <p>&copy; 2025 Sample Website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
